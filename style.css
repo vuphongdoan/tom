@@ -1,0 +1,38 @@
+/*====Reset CSS====*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*====Style basic for page====*/
+body {
+    font-family: sans-serif;
+    color: #333;
+}
+
+/*====Style for menu====*/
+#menu ul {
+    background: #1F568B;
+    list-style: none;
+    text-align: center;
+}
+
+#menu ul li {
+    color: #F1F1F1;
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 10px
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: #FFF;
+    display: block;
+}
+
+#menu ul li a:hover {
+    background: #F1F1F1;
+    color: #333;
+}
