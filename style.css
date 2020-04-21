@@ -2,32 +2,48 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 /*====Style basic for page====*/
 body {
     font-family: sans-serif;
+    font-size: 13px;
+    width: 1000px;
+    margin: 0px auto;
     color: #333;
 }
 
+/*====Style for banner====*/
+#banner {
+    width: 1000px;
+    height: 300px;
+    text-align: center;
+}
+
 /*====Style for menu====*/
+#menu {
+    border-bottom: 2px solid #CCC;
+}
 #menu ul {
     background: #1F568B;
-    list-style: none;
-    text-align: center;
+    height: 40px;
 }
 
 #menu ul li {
     color: #F1F1F1;
-    display: inline-block;
-    width: 200px;
-    height: 40px;
+    display: inline;
+    float: left;
+    width: 150px;
     line-height: 40px;
-    margin-left: 10px
+    text-align: center;
+    border-right: 1px solid #CCC;
+    
 }
 
 #menu ul li a {
     text-decoration: none;
+    list-style: none;
     color: #FFF;
     display: block;
 }
@@ -35,4 +51,80 @@ body {
 #menu ul li a:hover {
     background: #F1F1F1;
     color: #333;
+}
+
+#contain {
+    border-top: 5px solid;
+}
+
+#contain #left {
+    width: 800px;
+    height: auto;
+    float: left;
+}
+
+#contain #left ul li {
+    list-style: none;
+    clear: left
+}
+
+#contain #left ul li img {
+    float: left;
+    margin-right: 10px;
+    border-bottom: 5px solid #CCC;
+}
+
+#contain #left ul li h2 {
+    font-size: 14px;
+}
+
+
+#contain #right {
+    width: 200px;
+    float: left;
+    min-height: 400px;
+}
+
+#contain #right .menu_right h3 {
+    background: #225486;
+    background-image: url(icon.png);
+    background-repeat: no-repeat;
+    background-position: 3px;
+    height: 40px;
+    text-indent: 45px;
+    font-size: 14px;
+    line-height: 40px;
+    color: #FFF;
+}
+
+#contain #right .menu_right ul {
+    border: 1px solid #CCC;
+    
+}
+
+#contain #right .menu_right ul li {
+    list-style: none;
+}
+
+#contain #right .menu_right ul li a {
+    display: block;
+    text-decoration: none;
+    text-indent: 45px;
+    line-height: 32px;
+    background-image: url(Save.png);
+    background-position: 3px;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #CCC;
+}
+
+#contain #right .menu_right ul li a:hover {
+    color: brown;
+}
+#footer {
+    width: 1000px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #51FFFF;
+    clear: left;
 }
