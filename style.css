@@ -1,0 +1,306 @@
+/*====Reset CSS====*/
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*====Style basic for page====*/
+body {
+    font-family: sans-serif;
+    font-size: 13px;
+    width: 1000px;
+    margin: 0px auto;
+    color: #333;
+}
+
+/*====Style for banner====*/
+#banner {
+    width: 1000px;
+    height: 340px;
+}
+
+#banner h2 { 
+    text-align: center;
+    margin-top: 7px;
+}
+
+/*====Style for menu====*/
+#menu {
+    border-bottom: 3px solid #CCC;
+}
+#menu ul {
+    background: #CCCC00;
+    height: 40px;
+}
+
+#menu ul li {
+    color: #F1F1F1;
+    display: inline;
+    float: left;
+    width: 150px;
+    line-height: 40px;
+    text-align: center;
+    border-right: 1px solid #CCC;
+    
+}
+
+#menu ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: #FFF;
+    display: block;
+}
+
+#menu ul li a:hover {
+    background: #F1F1F1;
+    color: #333;
+}
+
+/*====Style for Contain====*/
+
+#contain {
+    
+}
+
+#contain #left {
+    width: 800px;
+    height: auto;
+    float: left;
+}
+
+/*====Style for bang====*/
+
+#contain #left #bang1 {
+    width: 798px;
+    height: auto;
+    margin-top: 3px;
+    text-align: left;
+    border: 2px solid #CCC;
+    border-collapse: collapse;
+    border-spacing: 1px;
+}
+
+#contain #left #bang1 #row1 th {
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 0 10px 0;
+}
+
+#contain #left #bang1 #row2 {
+    font-size: 15px;
+}
+
+#contain #left #bang1 #row2 #colname1 {
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+#contain #left #bang1 #row2 #colname2 {
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+#contain #left #bang1 form {
+    margin-left: 20px;
+}
+
+#contain #left #bang1 #row1 {
+    font-size: 20px;
+}
+
+#contain #left #bang1 #cot1 {
+    width: 200px;
+    height: auto;
+}
+
+#contain #left #bang1 #cot2 {
+    width: 600px;
+    height: auto;
+}
+
+/**====The end bang==================**?
+
+/*====Style for Ul li=================*/
+
+#contain #left ul li {
+    list-style: none;
+    clear: left;
+}
+
+/**====Style for H2====**/
+
+#contain #left h2 {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+    
+/**====The end style for H2====**/
+
+/**------Flex CSS for 3 container and 2 item each other-------**/
+
+/**----Container1 Flex layout 1----**/
+
+#contain #left ul li .container1 {
+    /* background: red; */
+    max-width: 798px;
+    max-height: auto;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#contain #left ul li .item {
+    /* background: blue; */
+    margin: 0px;
+    /* color: white; */
+    height: auto;
+    text-align: left;
+    word-spacing: 3px;
+    /* line-height: 50px; */
+}
+
+/**----Flex layout 1----**/
+
+#contain #left ul li .container1 {
+    display: flex;
+}
+
+/**----Container2 Flex layout 2----**/
+
+#contain #left ul li .container2 {
+    /* background: red; */
+    max-width: 798px;
+    max-height: auto;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#contain #left ul li .item {
+    /* background: blue; */
+    margin: 0px;
+    /* color: white; */
+    height: auto;
+    text-align: left;
+    word-spacing: 3px;
+    /* line-height: 50px; */
+}
+
+/**----Flex layout 2----**/
+
+#contain #left ul li .container2 {
+    display: flex;
+}
+
+/**----Container3 Flex layout 3----**/
+
+#contain #left ul li .container3 {
+    /* background: red; */
+    max-width: 798px;
+    max-height: auto;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#contain #left ul li .item {
+    /* background: blue; */
+    margin: 0px;
+    /* color: white; */
+    height: auto;
+    text-align: left;
+    word-spacing: 3px;
+    /* line-height: 50px; */
+}
+
+/**----Flex layout 3----**/
+
+#contain #left ul li .container3 {
+    display: flex;
+}
+
+/**----Flex CSS for 3 container and 2 item each other-------**/
+
+
+/**----Start CSS for images and text-------------**/
+#contain #left ul li img {
+    float: left;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+#contain #left ul li h2 {
+    font-size: 16px;
+}
+
+#contain #left ul li p {
+    font-size: 13px;
+    text-indent: 0px;
+    vertical-align: top;
+
+}
+/**----The End CSS for Images and text---**/
+
+/*=====The end style for Ul li==========================*/
+
+
+/**----Start Menu right CSS----**/
+
+#contain #right {
+    width: 200px;
+    float: left;
+    min-height: 400px;
+    margin-top: 3px;
+}
+
+#contain #right .menu_right h3 {
+    background: #225486;
+    background-image: url(images/icon.png);
+    background-repeat: no-repeat;
+    background-position: 3px;
+    height: 40px;
+    text-indent: 45px;
+    font-size: 14px;
+    line-height: 40px;
+    color: #FFF;
+}
+
+#contain #right .menu_right ul {
+    border: 1px solid #CCC;
+    
+}
+
+#contain #right .menu_right ul li {
+    list-style: none;
+}
+
+#contain #right .menu_right ul li a {
+    display: block;
+    text-decoration: none;
+    text-indent: 45px;
+    line-height: 32px;
+    background-image: url(images/Save.png);
+    background-position: 3px;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #CCC;
+}
+
+#contain #right .menu_right ul li a:hover {
+    color: brown;
+}
+/**---The end Menu right CSS----**/
+
+/*====The end style for Contain==================================*/
+
+
+/**---Start CSS for footer---**/
+
+#footer {
+    width: 1000px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #336699;
+    clear: left;
+}
+
+/**---The end CSS for footer---**/
