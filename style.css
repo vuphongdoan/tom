@@ -72,11 +72,11 @@ body {
 /*====Style for bang====*/
 
 #contain #left #bang1 {
-    width: 798px;
+    width: 800px;
     height: auto;
-    margin-top: 3px;
+    /*margin-top: 3px;*/
     text-align: left;
-    border: 2px solid #CCC;
+    /*border: 2px solid #CCC;*/
     border-collapse: collapse;
     border-spacing: 1px;
 }
